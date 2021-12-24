@@ -388,7 +388,7 @@ nav {
     position: absolute;
     right: 0;
     top: 0;
-    background: #09090999;
+    background: #020303;
     width: 100%;
     height: 100%;
     z-index: 30;
@@ -465,6 +465,9 @@ nav {
     transform: translateX(21rem);
     width: 0;
   }
+  .grid{
+    grid-template-columns: none;
+  }
   .projects {
     padding-left: 3rem;
     padding-right: 3rem;
@@ -489,3 +492,8 @@ nav {
           transform: translateY(0);
         }
       }
+
+.hr{
+  margin-top:1rem;
+  margin-bottom:1rem;
+}
