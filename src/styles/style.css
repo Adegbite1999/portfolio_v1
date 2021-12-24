@@ -264,7 +264,7 @@ nav {
   color: #ccc;
   font-size: 1.25rem;
   display: flex;
-  align-items: end;
+  align-items: flex-end;
 }
 .link > span{
   display: flex;
