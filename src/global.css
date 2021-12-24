@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Imperial+Script&family=Noto+Sans:wght@400;700&family=Oooh+Baby&family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&family=Roboto:ital,wght@0,300;0,400;0,500;1,100;1,300;1,400&display=swap');
+:root{
+    --color-title: #ff5349;
+    --color-primary:#0D75FF;
+    --color-link: #ccc;
+}
+*,
+::before,
+::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    scroll-behavior: auto;
+  }
+body{
+    background:#282c34;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+}
+.content__wrapper{
+ padding:5rem;
+}
+
+@media screen and (max-width: 768px){
+    .content__wrapper{
+        padding:0
+    }
+}
+@media screen and (max-width: 480px){
+    .content__wrapper{
+        padding:0
+    }
+}
