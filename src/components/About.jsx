@@ -17,9 +17,10 @@ function About() {
         <div>
         <section className="about" id="aboutme">
             <div className="about__intro">
-                <h4 className="intro"><span>Hello</span> <span className="emoji"><VscSmiley/></span>,</h4>
-                <p>W3Schools is optimized for learning and training. Examples might be simplified to improve reading and learning. Tutorials, references, and examples are constantly reviewed to avoid errors, but we cannot warrant full correctness of all content. While using W3Schools, you agree to have read and accepted our terms of use, cookie and privacy policy.
-                </p>
+                <h4 className="intro"><span>Hello, I'm Ademola Kelvin</span> <span className="emoji"><VscSmiley/></span>,</h4>
+               <p>I'm a self-taught front-end developer. I build website with a focus on simplicity, responsiveness, accessibility and pleasing aesthetics. As a solution oriented person, my approach is always focused on breaking down problems into small pieces and repeating the loop until the end.</p>
+               <p>I also write  <a className="link-dev" href="https://adegbiteademola1999.medium.com/">articles</a> to share knowledge about technologies i work with.</p>
+                
                 <button>Download Resume</button>
             </div>
 

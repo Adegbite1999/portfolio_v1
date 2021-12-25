@@ -342,6 +342,10 @@ nav {
     padding: 2rem;
     justify-content: space-between;
   }
+  .about__intro > h4 {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
 }
 
 @media screen and (max-width: 540px) {
@@ -369,6 +373,10 @@ nav {
   .right > p {
     font-size: 1.1rem;
   }
+  .about__intro > h4 {
+    font-size: 3rem;
+    line-height: 5rem;
+}
 }
 
 @media screen and (max-width: 480px) {
@@ -454,11 +462,18 @@ nav {
     top: 230px;
     right: 150px;
   }
+  .about__intro > h4 {
+    font-size: 2rem;
+    line-height: 5rem;
+}
 }
 .link-dev{
   text-decoration-color: var(--color-primary) !important;
   color: #ccc;
 }
+
+
+
 @media screen and (max-width: 375px) {
   .skills {
     position: relative;
