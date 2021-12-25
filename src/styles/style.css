@@ -79,11 +79,13 @@ nav {
   align-items: center;
   margin-left: 1rem;
 }
-.about__intro > button {
+.about__intro > .link-dev > button {
   padding: 1rem;
   background: #ccc;
   color: #282c34;
   border: none;
+  cursor: pointer;
+  margin-top: 1rem;
 }
 .img {
   width: 100%;

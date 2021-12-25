@@ -21,7 +21,7 @@ function About() {
                <p>I'm a self-taught front-end developer. I build website with a focus on simplicity, responsiveness, accessibility and pleasing aesthetics. As a solution oriented person, my approach is always focused on breaking down problems into small pieces and repeating the loop until the end.</p>
                <p>I also write  <a className="link-dev" href="https://adegbiteademola1999.medium.com/">articles</a> to share knowledge about technologies i work with.</p>
                 
-                <button>Download Resume</button>
+               <a className="link-dev" href="https://drive.google.com/file/d/13e2KIeZQoe2UI9yn2MDHKV-fJP55Hdrd/view?usp=sharing"><button>Download Resume</button></a>
             </div>
 
             <div className="skills">
