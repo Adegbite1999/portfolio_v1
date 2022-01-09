@@ -3,6 +3,7 @@ import project1 from '../assets/petly.png';
 import project2 from '../assets/windbnb.png';
 import project3 from '../assets/bookmarker.png';
 import scorekeeper from '../assets/scorekeeper.png';
+import portfolio from '../assets/port.png';
 import { FiLink } from 'react-icons/fi'
 import { BiCode } from 'react-icons/bi'
 import { SiCodeproject } from 'react-icons/si'
@@ -104,6 +105,30 @@ function Projects() {
                         <div className="card__link">
                             <p><a className='link' href="https://adegbite1999.github.io/scorekeeper/">Live url <span><FiLink /></span></a></p>
                             <p><a className='link' href="https://github.com/Adegbite1999/scorekeeper">Source code <span><BiCode /></span></a></p>
+                        </div>
+                    </div>
+                </div>
+                <div className="projects__card four">
+                    <div className="card__image">
+                        <img className="img" src={portfolio} alt={'project-portfolio'} />
+                    </div>
+                    <div className="card__details">
+                        <div className="card__about">
+                            <h5>Portfolio V1</h5>
+                            <p> My Portfolio website</p>
+                        </div>
+
+                        <div className="card__stacks">
+                            <button>Html5</button>
+                            <button>Css3</button>
+                            <button>Javascript</button>
+                            <button>React</button>
+                            <button>Vercel</button>
+                        </div>
+
+                        <div className="card__link">
+                            <p><a className='link' href="https://portfolio-version1-zeta.vercel.app/">Live url <span><FiLink /></span></a></p>
+                            <p><a className='link' href="https://github.com/Adegbite1999/portfolio_v1">Source code <span><BiCode /></span></a></p>
                         </div>
                     </div>
                 </div>
